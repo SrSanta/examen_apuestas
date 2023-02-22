@@ -4,9 +4,19 @@
  */
 package apuestas;
 
+/**
+ * 
+ * @autor Andres Conde Garcia
+ */
+
 
 public class Apuesta {
 
+    /**
+     * encapsulamos los diversos atributos
+     * 
+     */
+    
     private int dinero_disp;
     private int goles_local;
     private int goles_visitante;
@@ -84,6 +94,8 @@ public class Apuesta {
 
     /**
      * @return the goles_local
+     * metodo para obtener el atributo goles_local
+     * 
      */
     public int getGoles_local() {
         return goles_local;
@@ -91,6 +103,8 @@ public class Apuesta {
 
     /**
      * @param goles_local the goles_local to set
+     * metodo para modificar el valor del atributo goles_local
+     * 
      */
     public void setGoles_local(int goles_local) {
         this.goles_local = goles_local;
@@ -98,6 +112,8 @@ public class Apuesta {
 
     /**
      * @return the goles_visitante
+     * metodo para obtener el atributo goles_visitante
+     * 
      */
     public int getGoles_visitante() {
         return goles_visitante;
@@ -105,6 +121,8 @@ public class Apuesta {
 
     /**
      * @param goles_visitante the goles_visitante to set
+     * metodo para modificar el valor del atributo goles_visitante
+     * 
      */
     public void setGoles_visitante(int goles_visitante) {
         this.goles_visitante = goles_visitante;
@@ -112,6 +130,8 @@ public class Apuesta {
 
     /**
      * @return the apostado
+     * metodo para obtener el atributo apostado
+     * 
      */
     public int getApostado() {
         return apostado;
@@ -119,6 +139,8 @@ public class Apuesta {
 
     /**
      * @param apostado the apostado to set
+     * metodo para modificar el valor del atributo apostado
+     * 
      */
     public void setApostado(int apostado) {
         this.apostado = apostado;
